@@ -1,13 +1,13 @@
 {
-  "name": "digitaldonkey/ethereum-php",
+  "name": "tarolpotato/ethereum-php",
   "description": "A library integrating Ethereum with typed PHP.",
   "require": {
     "php": ">=7.1",
     "ext-json": "*",
-    "graze/guzzle-jsonrpc": "~3.0",
+    "tarolpotato/guzzle-jsonrpc": "@dev",
     "pear/math_biginteger": "^1.0",
     "kornrunner/keccak": "^1.0",
-    "digitaldonkey/ecverify":"1.0"
+    "digitaldonkey/ecverify": "1.0"
   },
   "scripts": {
     "generate-methods": [
